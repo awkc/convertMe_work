@@ -1,17 +1,23 @@
 @font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Medium.eot");
-  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("Poppins-Medium.woff") format("woff"),
-    url("../fonts/Poppins-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
+  font-family: "AlfaSlabOne";
+  src: url("../fonts/AlfaSlabOne-Regular-OTF.otf") format("opentype");
+  font-weight: 900;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Bold.eot");
-  src: url("../fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("Poppins-Bold.woff") format("woff"),
-    url("../fonts/Poppins-Bold.ttf") format("truetype");
+  font-family: "AlfaSlabOne";
+  src: url("../Montserrat-Bold.ttf") format("opentype");
   font-weight: 700;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: "AlfaSlabOne";
+  src: url("../fonts/BebasNeueBold.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AlfaSlabOne";
+  src: url("../fonts/BebasNeueBook.otf") format("opentype");
+  font-weight: 300;
 }

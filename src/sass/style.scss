@@ -1,3 +1,24 @@
-.body {
-background-color: black;
+@import "libs/reset";
+@import "libs/fonts";
+@import "libs/slick";
+@import "base/variables";
+
+
+* {
+  font-family: "AlfaSlabOne", sans-serif;
+  font-weight: 500;
+  color: $main-color;
 }
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/slider";
+@import "blocks/reservation";
+@import "blocks/footer";
+@import "blocks/media";
